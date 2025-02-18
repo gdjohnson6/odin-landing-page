@@ -4,6 +4,10 @@
     font-family: "Roboto", serif;
 }
 
+html {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     height: 100vh;
