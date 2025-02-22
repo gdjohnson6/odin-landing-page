@@ -41,7 +41,7 @@ body {
 }
 
 .hero-txt-lg {
-    font-size: 56px;
+    font-size: 54px;
     font-weight: 900;
     color: #f9faf8;
     margin-bottom: 10px;
@@ -66,7 +66,7 @@ body {
 
 /* solutions section flex styles */
 .solutions {
-    background-color: #e5e7eb;
+    background-color: #f9faf8;
     padding: 30px 150px;
     display: flex;
     flex-direction: column;
@@ -80,4 +80,24 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+}
+
+.solu-items div {
+    flex: 1 1 auto;
+    max-width: 200px;
+}
+
+/* solutions text and image styles */
+.solu-txt-lg {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.solu-txt-sm {
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+    text-align: center;
 }
