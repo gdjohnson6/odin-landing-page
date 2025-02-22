@@ -17,7 +17,7 @@ body {
     flex-direction: column;
 }
 
-/* header/navbar styles */
+/* header/navbar flex styles */
 .header, .hero {
     background-color: #1F2937;
     padding: 30px 150px;
@@ -62,4 +62,22 @@ body {
     border: none;
     border-radius: 10px;
     background-color: #3882f6;
+}
+
+/* solutions section flex styles */
+.solutions {
+    background-color: #e5e7eb;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.solu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }
