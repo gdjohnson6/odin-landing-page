@@ -37,11 +37,11 @@ body {
 /* hero intro and image styles */
 .hero-intro {
     flex: 1 1 auto;
-    max-width: 350px;
+    max-width: 400px;
 }
 
 .hero-txt-lg {
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 900;
     color: #f9faf8;
     margin-bottom: 10px;
