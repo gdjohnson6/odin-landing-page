@@ -17,10 +17,15 @@ body {
     flex-direction: column;
 }
 
+
+/* sidebar + top/bot padding for all sections */
+.header, .hero, .solutions {
+    padding: 30px 200px;
+}
+
 /* header/navbar flex styles */
 .header, .hero {
     background-color: #1F2937;
-    padding: 30px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +72,6 @@ body {
 /* solutions section flex styles */
 .solutions {
     background-color: #f9faf8;
-    padding: 30px 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -85,6 +89,11 @@ body {
 .solu-items div {
     flex: 1 1 auto;
     max-width: 200px;
+}
+
+.solu-items img {
+    display: block;
+    margin: 0 auto;
 }
 
 /* solutions text and image styles */
