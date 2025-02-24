@@ -20,7 +20,7 @@ body {
 
 /* sidebar + top/bot padding for all sections */
 .header, .hero, .solutions {
-    padding: 30px 200px;
+    padding: 30px 200px 40px;
 }
 
 /* header/navbar flex styles */
