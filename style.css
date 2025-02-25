@@ -17,10 +17,14 @@ body {
     flex-direction: column;
 }
 
+/* padding for navbar */
+.header {
+    padding: 20px 200px;
+}
 
 /* sidebar + top/bot padding for all sections */
-.header, .hero, .solutions {
-    padding: 30px 200px 40px;
+.hero, .solutions, .testimonial {
+    padding: 80px 200px;
 }
 
 /* header/navbar flex styles */
@@ -101,12 +105,34 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    margin-bottom: 10px;
 }
 
 .solu-txt-sm {
     font-size: 14px;
     color: #5a5a5a;
-    margin-bottom: 10px;
     text-align: center;
+}
+
+/* testimonial section flex styles */
+.testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+/* testimonial section text styles */
+.quote-txt {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.quote-attri {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    color: #1f2937;
+    margin-right: 60px;
 }
