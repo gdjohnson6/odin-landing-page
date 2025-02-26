@@ -23,7 +23,7 @@ body {
 }
 
 /* sidebar + top/bot padding for all sections */
-.hero, .solutions, .testimonial {
+.hero, .solutions, .testimonial, .cta {
     padding: 80px 200px;
 }
 
@@ -135,4 +135,53 @@ body {
     text-align: right;
     color: #1f2937;
     margin-right: 60px;
+}
+
+/* testimonial section flex styles */
+.cta {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* testimonial section text styles */
+.cta-bubble {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px 80px;
+    gap: 100px;
+    width: auto;
+    flex: 1 1 auto;
+}
+
+.cta-txt-lg {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9faf8;
+    margin-bottom: 3px;
+}
+
+.cta-txt-sm {
+    font-size: 18px;
+    font-weight: 300;
+    color: #f9faf8;
+}
+
+.cta-button {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display: block;
+    white-space: nowrap;
+    flex: 1 0 auto;
 }
