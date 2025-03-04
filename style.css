@@ -69,6 +69,12 @@ body {
     background-color: #3882f6;
 }
 
+.hero-button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    transition: 0.2s;
+}
+
 /* solutions section flex styles */
 .solutions {
     background-color: #f9faf8;
@@ -181,6 +187,12 @@ body {
     white-space: nowrap;
     flex: 1 0 auto;
 }
+
+.cta-button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    transition: 0.2s;
+} 
 
 /* footer section flex styles */
 .footer {
