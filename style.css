@@ -5,7 +5,7 @@
     font-family: "Roboto", serif;
 }
 
-/* set default box sizing */
+/* reset default box sizing */
 html {
     box-sizing: border-box;
 }
@@ -19,12 +19,12 @@ body {
 
 /* padding for navbar */
 .header {
-    padding: 20px 200px;
+    padding: 20px 16%;
 }
 
 /* sidebar + top/bot padding for all sections */
 .hero, .solutions, .testimonial, .cta, .footer {
-    padding: 80px 200px;
+    padding: 80px 16%;
 }
 
 /* header/navbar flex styles */
@@ -33,7 +33,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 100px;
 }
 
 .nav-links {
@@ -45,11 +45,6 @@ body {
 }
 
 /* hero intro and image styles */
-.hero-intro {
-    flex: 1 1 auto;
-    max-width: 400px;
-}
-
 .hero-txt-lg {
     font-size: 54px;
     font-weight: 900;
