@@ -82,7 +82,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     gap: 30px;
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .solu-txt-sm {
-    font-size: 14px;
+    font-size: 16px;
     color: #5a5a5a;
     text-align: center;
 }
